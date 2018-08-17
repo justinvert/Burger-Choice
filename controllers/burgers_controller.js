@@ -19,19 +19,19 @@ router.get("/index", function(req, res) {
     });
   });
 
-router.post("/", function(req, res) {
-    burger.insertOne([
-      "name", "devoured"
-    ],
-    [req.body.name, req.body.devoured], function(res) {
-      res.redirect("/");
-    });
+  router.post('/', function(req,res) {
+    burger.insertOne(
+      ['name'],
+      [req.body.name],
+      function(data){
+      res.redirect('/')
   });
+});
 
 router.put("/:id", function (req,res){
 var condition = "id = " + req.params.id;
 
-burger.update({
+burger.updateOne({
   devoured: req.body.devoured
 }, condition, function(result) {
   // if (result.changedRows == 0) {
