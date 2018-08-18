@@ -28,20 +28,19 @@ router.get("/index", function(req, res) {
   });
 });
 
-router.put("/:id", function (req,res){
-var condition = "id = " + req.params.id;
 
-burger.updateOne({
-  devoured: req.body.devoured
-}, condition, function(result) {
-  // if (result.changedRows == 0) {
-  //   return res.status(404).end();
-  // } else {
-  //   res.status(200).end();
-  // }
-  res.redirect("/");
-});
+router.post("/:id", function(req, res) {
+  var condition = "id = " + req.params.id;
 
-});
+  burger.updateOne({
+      devoured: true
+  },
+  condition, function() {
+
+      // console.log(req.body);
+      res.redirect("/");
+  });
+}); 
+
 
   module.exports = router;
