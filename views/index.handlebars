@@ -1,19 +1,23 @@
 
 <div class="container">
-  <h1>Burgers Table</h1>
+  <div class="jumbotron text-center">
+      <h1>Burger Choice</h1>
+  </div>
+
   <div class="row">
-    <div class="col-sm-4">
-  <h3 style="background-color:green; color: #fff; font-weight: bold;">Edible</h3>
+    <div class="col-sm-6">
+  <h3 class="text-center" style="background-color:green; color: #fff; ">Edible</h3>
    </br>
    <ul class="b">
         {{#each burgers}}
         {{#unless devoured}}
-         <li>
-               {{this.id}}
+         <li id="font">   
+         
+               {{this.id}}.
                {{this.name}}
   
             <form action="/{{id}}" method="POST">
-           <button type="submit" class="btn btn-warning">Eat</button>
+           <button type="submit" class="button btn btn-warning">Choose</button>
            </form>
 
                </li>
@@ -22,14 +26,15 @@
   </ul>
 </div>
   
-  <div class="col-sm-4">
-<h3 style="background-color:red; color: #fff; font-weight: bold;">Consumed</h3>
+  <div class="col-sm-6">
+<h3 class="text-center" style="background-color:red; color: #fff; ">Consumed</h3>
 </br>
-<ul>
+  <ul class="b">
         {{#each burgers}}
         {{#if devoured}}
-         <li>
-               {{this.id}} 
+             <li id="font">
+           
+               {{this.id}}.
                {{this.name}}</li>
          {{/if}}
          {{/each}}
@@ -40,9 +45,9 @@
 
 <div id="add-burgers">
 <h2>Add a burger</h2>
- <form class="update" action="/" method="POST">
+ <form class="update form-inline" action="/" method="POST">
   <div class="form-group">
-    <label for="burgers">Burger Name:</label>
+    <label for="burgers">Burger Name: </label>
     <input type="text" id="name" name="name">
   </div>
 
@@ -54,6 +59,10 @@
 
   <button type="submit">Submit</button>
 </form>
+</br>
+</br>
+</br>
+
 </div>
 
 </div>
