@@ -47,11 +47,13 @@ The user is given the current items in the database, with the option to choose t
 
 If they don't like the items they currently see, they are given the option to add one.
 <img src="public/assets/img/burger-03.png">
+<br/>
 <img src="public/assets/img/burger-04.png">
 <br/>
 
 When chosen, the item is then moved to the right column, as it is no longer active.
 <img src="public/assets/img/burger-05.png">
+<br/>
 <img src="public/assets/img/burger-06.png">
 <br/>
 
