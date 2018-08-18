@@ -1,6 +1,7 @@
 ## Burger Choice App
 
-<a href="#">**Live Demo**</a> hosted on <a href="https://heroku.com/">Heroku</a>\
+<a href="#">**Live Demo**</a> hosted on <a href="https://heroku.com/">Heroku</a>
+<br/>
 _Currently offline_
 
 ### Objectives
@@ -13,10 +14,10 @@ The user must:
 1. Perform a <a href="https://help.github.com/articles/fetching-a-remote/#clone">git clone</a> to get the files on their machine. 
 2. Install Node, MySQL and <a href="https://www.mamp.info/en/">MAMP</a>
 4. Take the necessary steps to get the server and database up and running in MySQL
-</br>
+<br/>
 *Please refer to the <a href="https://github.com/justinvert/Burger-Choice#resources-used">respective documentation</a> for proper installation procedures*
-</br>
-</br>
+<br/>
+<br/>
 
 After the above mentioned items have been installed and are working properly, the user must then navigate to where the repository is stored locally and run the command:
 ```
@@ -38,27 +39,28 @@ http://localhost:3000/
 ### Functionality
 The app displays two columns, with a submit feature at the very bottom of the page.
 <img src="public/assets/img/burger-01.png">
-</br>
+<br/>
 
 The user is given the current items in the database, with the option to choose them.
 <img src="public/assets/img/burger-02.png">
-</br>
+<br/>
 
 If they don't like the items they currently see, they are given the option to add one.
 <img src="public/assets/img/burger-03.png">
 <img src="public/assets/img/burger-04.png">
-</br>
+<br/>
 
 When chosen, the item is then moved to the right column, as it is no longer active.
 <img src="public/assets/img/burger-05.png">
 <img src="public/assets/img/burger-06.png">
-</br>
+<br/>
 
-In the database itself, the 'devoured' value that was once 'false' changes to 'true'.\
+In the database itself, the 'devoured' value that was once 'false' changes to 'true'.
+<br/>
 <img src="public/assets/img/burger-07.png">
-</br>
+<br/>
 <img src="public/assets/img/burger-08.png">
-</br>
+<br/>
 
 ### Resources used
 
