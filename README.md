@@ -75,4 +75,5 @@ In the database itself, the 'devoured' value that was once 'false' changes to 't
 *  <a href="https://www.npmjs.com/package/dotenv">Dotenv Module</a> 
 *  <a href="https://www.npmjs.com/package/mysql">MySQL Module</a>
 *  <a href="https://www.npmjs.com/package/body-parser">Body Parser Module</a>
+*  <a href="https://www.npmjs.com/package/method-override">Method Override Module</a> 
 *  <a href="https://www.npmjs.com/package/express-handlebars">Express Handlebars Module</a>

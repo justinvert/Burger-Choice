@@ -16,7 +16,8 @@
                {{this.id}}.
                {{this.name}}
   
-            <form action="/{{id}}" method="POST">
+            {{!-- <form action="/{{id}}" method="POST"> --}}
+              <form method="POST" action="/{{id}}?_method=PUT">
            <button type="submit" class="button btn btn-warning">Choose</button>
            </form>
 

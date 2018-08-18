@@ -1,7 +1,7 @@
 {
   "name": "burger-restaurant",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a href=\"#\">**Live Demo**</a> hosted on <a href=\"https://heroku.com/\">Heroku</a>\r <br/>\r _Currently offline_",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +22,7 @@
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
     "mysql": "^2.16.0"
   },
   "devDependencies": {}

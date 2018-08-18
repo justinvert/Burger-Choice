@@ -28,8 +28,7 @@ router.get("/index", function(req, res) {
   });
 });
 
-
-router.post("/:id", function(req, res) {
+router.put("/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
   burger.updateOne({
