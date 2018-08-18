@@ -1,6 +1,8 @@
 ## Burger Choice App
 
 <a href="#">**Live Demo**</a> hosted on <a href="https://heroku.com/">Heroku</a>
+
+</br>
 </br>
 _Currently offline_
 
@@ -56,9 +58,10 @@ When chosen, the item is then moved to the right column, as it is no longer acti
 </br>
 
 In the database itself, the 'devoured' value that was once 'false' changes to 'true'.
-</br>
 <img src="public/assets/img/burger-07.png">
+</br>
 <img src="public/assets/img/burger-08.png">
+</br>
 
 ### Resources used
 
